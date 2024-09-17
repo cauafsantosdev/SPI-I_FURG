@@ -1,2 +1,20 @@
-# SPI-I_FURG
-Exercícios das aulas de Sistemas para Internet I, do primeiro ano de Sistemas de Informação na FURG
+# Sistemas para Internet I - FURG
+
+## Conteúdo visto até agora ##
+#### HTML #
+
+- Tags básicas
+- Imagens
+- Links
+- Tabelas
+- Formulários
+
+#### CSS #
+
+- Classes
+- Formatação de texto
+- Redimensionamento de imagem
+- Estilo de fundo
+- Formatação de listas
+- Formatação de tabelas
+
