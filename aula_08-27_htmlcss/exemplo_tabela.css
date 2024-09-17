@@ -1,0 +1,24 @@
+table.main {
+    border: thin solid black;
+    border-collapse:collapse;
+}
+
+tr.head {
+    background-color:green;
+    color:white;
+    border: thin solid gray;
+    padding: 15px;
+}
+
+tr.intercalado {
+    background-color:#99FF99;
+}
+
+td {
+    border: thin solid gray;
+    padding: 15px;
+}
+
+td.centralizado {
+    text-align:center;
+}

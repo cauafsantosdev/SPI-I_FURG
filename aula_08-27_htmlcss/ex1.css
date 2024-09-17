@@ -1,0 +1,14 @@
+h1 {
+    text-align:center;
+}
+
+p.date {
+    text-align:right;
+    color:blue;
+    font-size:0.625em;
+}
+
+p.main {
+    text-align:justify;
+    font-size:0.875em;
+}

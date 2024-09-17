@@ -1,0 +1,41 @@
+body {
+    background-image:url("thought.png");
+    background-size:cover;
+}
+
+h1.inicial {
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    size:40px;
+    text-align:center;
+    text-decoration:underline;
+    text-shadow:8px 8px 16px black;
+}
+
+p.intro {
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    size:25px;
+    text-align:center;
+    text-shadow:4px 4px 8px black;
+}
+
+h1.resumo {
+    color:#0d830d;
+    font-family:'Courier New', Courier, monospace;
+    size:30px;
+    text-align:left;
+    text-shadow:8px 8px 16px black;
+    text-indent:5px;
+}
+
+p.resumo {
+    color:#64dd64;
+    font-family:'Courier New', Courier, monospace;
+    size:25px;
+    text-align:justify;
+    margin-right:20px;
+    margin-left:10px;
+    text-shadow:5px 5px 10px black;
+    text-indent:15px;
+}

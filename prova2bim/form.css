@@ -1,0 +1,25 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background-image: url("fundo.png");
+    background-size: cover;
+}
+
+input {
+    background-color: gray;
+    color: white;
+}
+
+textarea {
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+    background-color: gray;
+    color: white;
+}

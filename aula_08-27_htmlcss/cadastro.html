@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <form name="input" action="cadastrado.html" target="_blank" method="get">
+        <table>
+            <tr>
+                <td><b>Nome:</b></td>
+                <td colspan="7"><input type="text" name="nome" size="48"></td>
+            </tr>
+            <tr>
+                <td><b>Curso:</b></td>
+                <td colspan="7"><select name="curso">
+                    <option value="none" select="selected"> </option>
+                    <option value="EComp">Engenharia da Computação</option>
+                    <option value="EAuto">Engenharia de Automação</option>
+                    <option value="SI">Sistemas de Informação</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><b>Matrícula:</b></td>
+                <td colspan="2"><input type="text" name="matricula" size="6"></td>
+                <td><b>Ano:</b></td>
+                <td colspan="2"><select name="ano">
+                    <option value="none" select="selected"> </option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><b>Jogos de preferência:</b></td>
+                <td><input type="checkbox" name="jogos" value="Volei">Vôlei</td>
+                <td><input type="checkbox" name="jogos" value="Basquete">Basquete</td>
+                <td><input type="checkbox" name="jogos" value="Handebol">Handebol</td>
+                <td><input type="checkbox" name="jogos" value="Tênis">Tênis</td>
+                <td><input type="checkbox" name="jogos" value="Futebol">Futebol</td>
+                <td><input type="checkbox" name="jogos" value="Xadrez">Xadrez</td>
+            </tr>
+            <tr>
+                <td><b>Dia de preferência:</b></td>
+                <td><input type="radio" name="dia" value="segunda">Seg</td>
+                <td><input type="radio" name="dia" value="terça">Ter</td>
+                <td><input type="radio" name="dia" value="quarta">Qua</td>
+                <td><input type="radio" name="dia" value="quinta">Qui</td>
+                <td><input type="radio" name="dia" value="sexta">Sex</td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Enviar"></td>
+                <td><input type="reset" value="Limpar"></td>
+            </tr>
+            <caption><b>Cadastro Jogos</b></caption>
+        </table>
+    </form>
+</body>
+</html>

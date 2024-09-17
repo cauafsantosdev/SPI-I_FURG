@@ -1,0 +1,24 @@
+table.main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: thin solid black;
+    border-collapse:collapse;
+}
+
+tr.head {
+    font-size: 1.125em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 3px 7px;
+    text-align: left;
+    background-color: #0000CD;
+    color: #ffffff;
+}
+
+tr.intercalado {
+    background-color:#87CEEB;
+    color: #000000;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 5px 7px;
+}

@@ -1,0 +1,105 @@
+body {
+    background-image: url("twinpeaks.png");
+    background-size: cover;
+}
+
+table.main {
+    border: thin solid black;
+    border-collapse: collapse;
+    width: 600px;
+    height: 400px;
+}
+
+td.blue {
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.pink {
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.green {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.grey {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.brown {
+    background-color: #402a23;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.black {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.lightgreen {
+    background-color: #6fec21;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.lilac {
+    background-color: #C8A2C8;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.red {
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.lightblue {
+    background-color: #40c8f5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+td.orange {
+    background-color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+caption.main {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}

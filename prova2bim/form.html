@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form name="input" action="submetido.html" target="_blank" method="get">
+        <table>
+            <tr>
+                <th><b>PREENCHA SEUS DADOS CORRETAMENTE</b></th>
+            </tr>
+            <tr>
+                <td><b>Nome:</b> 
+                <input type="text" name="nome" size="30"> 
+                <b>Idade:</b> <input type="text" name="idade" size="2">
+                <b>Senha:</b>
+                <input type="password" name="senha" size="18"></td>
+            </tr>
+            <tr>
+                <td><b>Esportes que pratica:</b>
+                <input type="checkbox" name="esportes" value="volei">Volei
+                <input type="checkbox" name="esportes" value="futebol">Futebol
+                <input type="checkbox" name="esportes" value="handebol">Handebol
+                &nbsp <b>Outro: </b>
+                <input type="text" name="esportes" size="20"></td>
+            </tr>
+            <tr>
+                <td><b>Gosta de doces?</b>
+                <input type="radio" name="doce" value="sim">Sim
+                <input type="radio" name="doce" value="nao">Não</td>
+            </tr>
+            <tr>
+                <td class="select"><b>Selecione duas opções de comida:</b>
+                <select name="comida" multiple size="2">
+                    <option value="lasanha" select="selected">Lasanha</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="churrasco">Churrasco</option>
+                    <option value="arrozfeijao">Arroz e Feijão</option>
+                    <option value="frangofrito">Frango Frito</option>
+                </select></td>
+            </tr>
+            <tr>
+                
+                <td colspan=""><textarea name="historia" rows="10" cols="75">Conte uma história sobre comida</textarea></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><input type="submit" value="Enviar">
+                <input type="reset" value="Limpar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
