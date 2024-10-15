@@ -1,0 +1,39 @@
+p.dotted {
+    border: 5px dotted red;
+    padding: 5px;
+}
+
+p.dashed {
+    border: 3px dashed lightblue;
+}
+
+p.solid {
+    border: thick solid black;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+p.double {
+    border-top: double pink;
+    border-bottom: double pink;
+    border-left: solid palevioletred;
+    border-right: solid palevioletred;
+}
+
+p.groove {
+    border: 5px groove cyan;
+}
+
+p.ridge {
+    border: 8px ridge purple;
+}
+
+p.inset {
+    border: 5px inset greenyellow;
+    padding-left: 5%;
+}
+
+p.outset {
+    border: 5px outset red;
+    padding: 25px;
+}
