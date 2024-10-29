@@ -1,0 +1,36 @@
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.red {
+    border: thin solid black;
+    font-size: 22px;
+    height: 30px;
+    width: 45px;
+    background-color: #e41e1e;
+}
+
+.purple {
+    border: thin solid black;
+    font-size: 22px;
+    height: 30px;
+    width: 45px;
+    background-color: #9e0b9e;
+}
+
+.yellow {
+    border: thin solid black;
+    font-size: 22px;
+    height: 30px;
+    width: 45px;
+    background-color: #e6c50c;
+}
+
+.blue {
+    border: thin solid black;
+    font-size: 22px;
+    height: 30px;
+    width: 45px;
+    background-color: #1e95e4;
+}
