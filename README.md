@@ -1,20 +1,26 @@
-# Sistemas para Internet I - FURG
+# Web Development I - FURG
 
-## Conteúdo visto até agora ##
+## Content seen: ##
 #### HTML #
 
-- Tags básicas
-- Imagens
+- Basic Tags
+- Images
 - Links
-- Tabelas
-- Formulários
+- Tables
+- Forms
+- Divs
 
 #### CSS #
 
 - Classes
-- Formatação de texto
-- Redimensionamento de imagem
-- Estilo de fundo
-- Formatação de listas
-- Formatação de tabelas
+- Text formatting
+- Image formatting
+- Background formatting
+- Div handling
 
+#### JavaScript #
+
+- Operators
+- Functions
+- Conditions
+- Loops
