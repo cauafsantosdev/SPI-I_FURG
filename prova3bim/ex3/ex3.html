@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Exercício 3</title>
+    <script>
+        function showNums() {
+            const n1 = Number(document.getElementById('n1').value);
+            const n2 = Number(document.getElementById('n2').value);
+            const resultadoDiv = document.createElement('div');
+            
+            let resultado = '';
+            for (let i = n1; i <= n2; i++) {
+                resultado += i + ' ';
+            }
+
+            resultadoDiv.textContent = resultado.trim();
+            document.body.appendChild(resultadoDiv);
+        }
+    </script>
+</head>
+<body>
+    Número inicial: <input type="text" id="n1" onblur="showNums();">
+    Número final: <input type="text" id="n2" onblur="showNums();">
+</body>
+</html>
