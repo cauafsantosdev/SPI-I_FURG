@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Exercício 1: Gráfico de Linhas</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Exercício 1: Gráfico de Linhas</h1>
+
+    <div class="chart-container">
+        <canvas id="line-chart"></canvas>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+
+        const ctx = document.getElementById("line-chart");
+
+        const lineChart = new Chart(ctx, {
+            type: "line",
+            data: {
+                labels: ["A", "B", "C"],
+                datasets: [{
+                    label: "Linha 1",
+                    data: [20, 4, 9],
+                    borderColor: "#FF5733",
+                    fill: false,
+                }, {
+                    label: "Linha 2",
+                    data: [15, 8, 12],
+                    borderColor: "#33FF57",
+                    fill: false,
+                },],
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+            },
+            });
+        })
+    </script>
+</body>
+</html>
